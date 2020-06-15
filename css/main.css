@@ -1,0 +1,108 @@
+body {
+    background-color: #1f202b;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 24px;
+}
+
+/****GRID****/
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+
+.half-width {
+    float: left;
+    width: 600px;
+}
+
+.third-width {
+    float: left;
+    width: 400px;
+}
+
+/*****HEADER*****/
+header {
+    background: url('..img/hero-background.png');
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+header h3 {
+    font-size: 30px;
+}
+
+nav {
+    float: right;
+    margin: 30 auto;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 22.5px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    font-size: 30px;
+    text-decoration: none;
+}
+h1 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 72px;
+}
+
+header h1 span {
+    color: #fa0075;
+}
+
+
+/*****PORTFOLIO*****/
+#portfolio {
+    height: 1550px;
+}
+
+#portfolio h2 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 36px;
+}
+
+#portfolio p {
+    font-size: 24px;
+}
+/*****ABOUT*****/
+#about {
+    height: 550px;
+}
+
+#about h2 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 36px;
+}
+
+#about p {
+    color: #1f202b;
+    font-size: 24px;
+}
+
+/*****CONTACT*****/
+#contact {
+    height: 400px;
+}
+
+/*****FOOTER*****/
+footer p {
+    font-size: 18px;
+    text-align: center;
+}
