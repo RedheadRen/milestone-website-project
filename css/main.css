@@ -1,17 +1,11 @@
 body {
-    background-color: #1f202b;
+    background: #1f202b;
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
 }
 
-h3 {
-    font-size: 30px;
-    border: 1px solid #ccc;
-}
-
 p {
     font-size: 24px;
-    border: 1px solid #ccc;
 }
 
 /****GRID****/
@@ -19,85 +13,97 @@ p {
     margin: 0 auto;
     overflow: auto;
     width: 1200px;
-    border: 1px solid #ccc;
 }
 
 .half-width {
     float: left;
     width: 600px;
-    border: 1px solid #ccc;
 }
 
 .third-width {
     float: left;
-    width: 400px;
+    width: 394px;
     border: 1px solid #ccc;
 }
 
 /*****HEADER*****/
 header {
     height: 800px;
-    border: 1px solid #ccc;
 }
 
-header img {
-    clear: both;
-    position: center;
-    border: 1px solid #ccc;
-}
-
-header h3 {
+header p {
     font-size: 30px;
-    padding: 25px;
-    border: 1px solid #ccc;
+    line-height: 30px;
+    margin-bottom: 28px;
+    margin-top: 28px;
 }
 
 nav {
-    float: right;
-    margin: 30 auto;
-    padding: 25px;
-    border: 1px solid #ccc;
+    margin-bottom: 28px;
+    margin-top: 28px;
+    text-align: right;
 }
 
 nav ul li {
     display: inline-block;
-    padding: 22.5px;
-    border: 1px solid #ccc;
+    line-height: 30px;
 }
 
 nav ul li a {
     color: #ffffff;
     font-size: 30px;
+    line-height: 30px;
+    padding-left: 45px;
     text-decoration: none;
-    border: 1px solid #ccc;
 }
-h1 {
+
+.header-img {
+    background: url("../img/hero-background.png");
+    background-size: cover;
+    height: 750px;
+}
+
+header h1 {
+    clear: both;
     font-family: 'Source Code Pro', monospace;
     font-size: 72px;
-    border: 1px solid #ccc;
+    margin: 0;
+    padding: 300px 0px 273px 100px;
 }
 
 header h1 span {
     color: #fa0075;
-    border: 1px solid #ccc;
 }
-
 
 /*****PORTFOLIO*****/
 #portfolio {
     height: 1550px;
+    margin: 40px 0 0 0;
     border: 1px solid #ccc;
 }
 
 #portfolio h2 {
+    clear: both;
+    color: #fa0075;
     font-family: 'Source Code Pro', monospace;
     font-size: 36px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    text-align: center;
     border: 1px solid #ccc;
 }
+.left {
+    box-sizing: border-box;
+    height: 498px;
+    padding-right: 49px;
+    margin: 0;
+}
 
-#portfolio .half-width {
-    padding: 50px;
-    border: 1px solid #ccc;
+.right {
+    box-sizing: border-box;
+    height: 498px;
+    padding-left: 51px;
+    margin: 0;
 }
 
 #portfolio p {
@@ -105,22 +111,33 @@ header h1 span {
     border: 1px solid #ccc;
 }
 
+#portfolio-img {
+    /***keep this border***/
+    border: 1px solid #b7b7b7;
+}
+
 /*****ABOUT*****/
 #about {
     height: 550px;
-    border: 1px solid #ccc;
 }
 
 #about h2 {
+    clear: both;
+    color: #fa0075;
     font-family: 'Source Code Pro', monospace;
     font-size: 36px;
-    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.about-img {
+    background: url("../img/about-me.png");
+    background-size: cover;
 }
 
 #about p {
     color: #1f202b;
-    font-size: 24px;
-    border: 1px solid #ccc;
+    font-size: 20px;
+    padding: 25px 10px;
 }
 
 /*****CONTACT*****/
@@ -129,7 +146,20 @@ header h1 span {
     border: 1px solid #ccc;
 }
 
+#contact h2 {
+    clear: both;
+    color: #fa0075;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 36px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
 /*****FOOTER*****/
+footer {
+    clear: both;
+}
+
 footer p {
     font-size: 18px;
     text-align: center;
