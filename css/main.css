@@ -65,7 +65,7 @@ header h1 {
 }
 
 header h1 span {
-    color: #fa0075;
+    color: #ff8501;
 }
 
 /*****PORTFOLIO*****/
@@ -77,7 +77,7 @@ header h1 span {
 
 #portfolio h2 {
     clear: both;
-    color: #fa0075;
+    color: #ff8501;
     font-family: 'Source Code Pro', monospace;
     font-size: 36px;
     margin-bottom: 40px;
@@ -143,7 +143,7 @@ header h1 span {
 
 #contact h2 {
     clear: both;
-    color: #fa0075;
+    color: #ff8501;
     font-family: 'Source Code Pro', monospace;
     font-size: 36px;
     margin-bottom: 100px;
